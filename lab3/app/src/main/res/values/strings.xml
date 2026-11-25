@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="calc_title">Calculator</string>
+    <string name="error_div_zero">Недоп.операция</string>
+    <string name="traffic_red">Красный</string>
+    <string name="traffic_yellow">Желтый</string>
+    <string name="traffic_green">Зеленый</string>
+</resources>

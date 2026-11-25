@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_task1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FA"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Task1Activity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbarTask1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2E2E2E"
+        app:navigationIcon="@android:drawable/ic_menu_revert"
+        app:title="Задание 1 (Светофор)"
+        app:titleTextColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Нажмите любую кнопку:"
+        android:textColor="#333333"
+        android:textSize="18sp" />
+
+    <!-- Поле для вывода текста цвета -->
+    <TextView
+        android:id="@+id/tvColorResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/display_background"
+        android:gravity="center"
+        android:minHeight="64dp"
+        android:padding="12dp"
+        android:text="Цвет не выбран"
+        android:textColor="#222222"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <!-- 3 вертикальные цветные кнопки -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:orientation="vertical">
+
+        <!-- Красная кнопка -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnRed"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/traffic_red"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/traffic_red"
+            app:cornerRadius="8dp" />
+
+        <!-- Желтая кнопка -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnYellow"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/traffic_yellow"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/traffic_yellow"
+            app:cornerRadius="8dp" />
+
+        <!-- Зеленая кнопка -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnGreen"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginBottom="32dp"
+            android:text="@string/traffic_green"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/traffic_green"
+            app:cornerRadius="8dp" />
+
+        <!-- Кнопка возврата к калькулятору -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBackToCalc"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="← Назад к Калькулятору"
+            android:textSize="15sp"
+            app:cornerRadius="8dp" />
+    </LinearLayout>
+
+</LinearLayout>

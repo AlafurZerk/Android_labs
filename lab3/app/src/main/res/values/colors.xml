@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Цвета калькулятора (по рисунку 3.13) -->
+    <color name="calc_background">#EAEAEA</color>
+    <color name="calc_display_bg">#FFFFFF</color>
+    <color name="calc_display_text">#1A1A1A</color>
+    <color name="calc_expression_text">#666666</color>
+    
+    <color name="btn_number_bg">#D6D6D6</color>
+    <color name="btn_number_text">#111111</color>
+    
+    <color name="btn_op_bg">#9E9E9E</color>
+    <color name="btn_op_text">#FFFFFF</color>
+    
+    <color name="btn_memory_bg">#8E8E8E</color>
+    <color name="btn_memory_text">#FFFFFF</color>
+    
+    <color name="btn_clear_bg">#3D6B99</color>
+    <color name="btn_clear_text">#FFFFFF</color>
+    
+    <color name="btn_equals_bg">#2E9E38</color>
+    <color name="btn_equals_text">#FFFFFF</color>
+
+    <!-- Цвета для задания 1 (Светофор) -->
+    <color name="traffic_red">#D32F2F</color>
+    <color name="traffic_yellow">#FBC02D</color>
+    <color name="traffic_green">#388E3C</color>
+</resources>

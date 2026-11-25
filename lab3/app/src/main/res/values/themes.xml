@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Diana_3" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+    </style>
+
+    <style name="Theme.Diana_3" parent="Base.Theme.Diana_3" />
+
+    <!-- Базовый стиль кнопок калькулятора -->
+    <style name="CalcButton" parent="Widget.Material3.Button">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="cornerRadius">4dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Стиль цифровых кнопок -->
+    <style name="CalcButton.Number">
+        <item name="backgroundTint">@color/btn_number_bg</item>
+        <item name="android:textColor">@color/btn_number_text</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Стиль кнопок операций -->
+    <style name="CalcButton.Op">
+        <item name="backgroundTint">@color/btn_op_bg</item>
+        <item name="android:textColor">@color/btn_op_text</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Стиль кнопок памяти -->
+    <style name="CalcButton.Memory">
+        <item name="backgroundTint">@color/btn_memory_bg</item>
+        <item name="android:textColor">@color/btn_memory_text</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Стиль кнопки очистки (C) -->
+    <style name="CalcButton.Clear">
+        <item name="backgroundTint">@color/btn_clear_bg</item>
+        <item name="android:textColor">@color/btn_clear_text</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Стиль кнопки равно (=) -->
+    <style name="CalcButton.Equals">
+        <item name="backgroundTint">@color/btn_equals_bg</item>
+        <item name="android:textColor">@color/btn_equals_text</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+</resources>
